@@ -26,7 +26,7 @@ export class Enforcer extends ManagementEnforcer {
    * initWithFile initializes an enforcer with a model file and a policy file.
    * @param modelPath model file path
    * @param policyPath policy file path
-   * @param lazyLoad lazyLoad whether to load policy at initial time
+   * @param lazyLoad whether to load policy at initial time
    */
   public async initWithFile(modelPath: string, policyPath: string, lazyLoad = false): Promise<void> {
     const a = new FileAdapter(policyPath);
