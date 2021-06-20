@@ -21,6 +21,7 @@ import { DefaultRoleManager, RoleManager } from './rbac';
 import { escapeAssertion, generateGFunction, getEvalValue, hasEval, replaceEval, generatorRunSync, generatorRunAsync } from './util';
 import { getLogger, logPrint } from './log';
 import { MatchingFunc } from './rbac';
+import deepUnmock = jest.deepUnmock;
 
 type Matcher = ((context: any) => Promise<any>) | ((context: any) => any);
 
@@ -44,6 +45,7 @@ export class CoreEnforcer {
   protected autoSave = true;
   protected autoBuildRoleLinks = true;
   protected autoNotifyWatcher = true;
+  protected tableNameMap: Map<string, string> = new Map();
 
   private getExpression(asyncCompile: boolean, exp: string): Matcher {
     const matcherKey = `${asyncCompile ? 'ASYNC[' : 'SYNC['}${exp}]`;

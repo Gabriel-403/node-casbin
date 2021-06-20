@@ -1,222 +1,191 @@
 # [5.8.0](https://github.com/casbin/node-casbin/compare/v5.7.2...v5.8.0) (2021-06-14)
 
-
 ### Features
 
-* add support for `in` operator ([a44c6a9](https://github.com/casbin/node-casbin/commit/a44c6a99ed36634a67e7888472e8f6d324b257f4))
+- add support for `in` operator ([a44c6a9](https://github.com/casbin/node-casbin/commit/a44c6a99ed36634a67e7888472e8f6d324b257f4))
 
 ## [5.7.2](https://github.com/casbin/node-casbin/compare/v5.7.1...v5.7.2) (2021-06-12)
 
-
 ### Bug Fixes
 
-* Support for loadIncrementalFilteredPolicy ([72c2001](https://github.com/casbin/node-casbin/commit/72c2001ab064d190bfa5bcd305829d083eca52f7))
+- Support for loadIncrementalFilteredPolicy ([72c2001](https://github.com/casbin/node-casbin/commit/72c2001ab064d190bfa5bcd305829d083eca52f7))
 
 ## [5.7.1](https://github.com/casbin/node-casbin/compare/v5.7.0...v5.7.1) (2021-05-19)
 
-
 ### Bug Fixes
 
-* `getImplicitPermissionsForUser` works with rmMap ([#272](https://github.com/casbin/node-casbin/issues/272)) ([0d59239](https://github.com/casbin/node-casbin/commit/0d5923998fa71648c8f77a23f67ffffac2a09343))
+- `getImplicitPermissionsForUser` works with rmMap ([#272](https://github.com/casbin/node-casbin/issues/272)) ([0d59239](https://github.com/casbin/node-casbin/commit/0d5923998fa71648c8f77a23f67ffffac2a09343))
 
 # [5.7.0](https://github.com/casbin/node-casbin/compare/v5.6.3...v5.7.0) (2021-05-14)
 
-
 ### Features
 
-* add enforceEx() ([#271](https://github.com/casbin/node-casbin/issues/271)) ([762efd9](https://github.com/casbin/node-casbin/commit/762efd9d9766fbc8e95f9d5160413ed2a8c6ce88))
+- add enforceEx() ([#271](https://github.com/casbin/node-casbin/issues/271)) ([762efd9](https://github.com/casbin/node-casbin/commit/762efd9d9766fbc8e95f9d5160413ed2a8c6ce88))
 
 ## [5.6.3](https://github.com/casbin/node-casbin/compare/v5.6.2...v5.6.3) (2021-05-07)
 
-
 ### Bug Fixes
 
-* fix buildRoleLinks to isolate groups ([0fb6ae7](https://github.com/casbin/node-casbin/commit/0fb6ae798ef692aaef890472421f980b58a4dfec))
+- fix buildRoleLinks to isolate groups ([0fb6ae7](https://github.com/casbin/node-casbin/commit/0fb6ae798ef692aaef890472421f980b58a4dfec))
 
 ## [5.6.2](https://github.com/casbin/node-casbin/compare/v5.6.1...v5.6.2) (2021-05-02)
 
-
 ### Bug Fixes
 
-* transfer from micromatch to picomatch ([#264](https://github.com/casbin/node-casbin/issues/264)) ([6be1b06](https://github.com/casbin/node-casbin/commit/6be1b06f2225bc906b2a0e215ff8635c6dd3422f))
+- transfer from micromatch to picomatch ([#264](https://github.com/casbin/node-casbin/issues/264)) ([6be1b06](https://github.com/casbin/node-casbin/commit/6be1b06f2225bc906b2a0e215ff8635c6dd3422f))
 
 ## [5.6.1](https://github.com/casbin/node-casbin/compare/v5.6.0...v5.6.1) (2021-04-05)
 
-
 ### Bug Fixes
 
-* fix CasbinJsGetPermissionForUser() ([#251](https://github.com/casbin/node-casbin/issues/251)) ([98c11f1](https://github.com/casbin/node-casbin/commit/98c11f1451e71b0b002b140387f2a38bb9957c38))
+- fix CasbinJsGetPermissionForUser() ([#251](https://github.com/casbin/node-casbin/issues/251)) ([98c11f1](https://github.com/casbin/node-casbin/commit/98c11f1451e71b0b002b140387f2a38bb9957c38))
 
 # [5.6.0](https://github.com/casbin/node-casbin/compare/v5.5.0...v5.6.0) (2021-03-23)
 
-
 ### Features
 
-* add priority_policy_explicit support ([#250](https://github.com/casbin/node-casbin/issues/250)) ([763c18e](https://github.com/casbin/node-casbin/commit/763c18e7f3cfa068e7b61fdd7491dd0365b86dca))
+- add priority_policy_explicit support ([#250](https://github.com/casbin/node-casbin/issues/250)) ([763c18e](https://github.com/casbin/node-casbin/commit/763c18e7f3cfa068e7b61fdd7491dd0365b86dca))
 
 # [5.5.0](https://github.com/casbin/node-casbin/compare/v5.4.2...v5.5.0) (2021-03-19)
 
-
 ### Bug Fixes
 
-* add missing await ([523ce85](https://github.com/casbin/node-casbin/commit/523ce8508ce45d7e79673bb0b498ed017772815d))
-* fix errror type ([dc9e5b5](https://github.com/casbin/node-casbin/commit/dc9e5b5db766d64918a7670f6b3b72f70e84ca28))
-* remove unused import ([2f8801c](https://github.com/casbin/node-casbin/commit/2f8801c47e716f69c36b49a73a45c67d9c751b92))
-
+- add missing await ([523ce85](https://github.com/casbin/node-casbin/commit/523ce8508ce45d7e79673bb0b498ed017772815d))
+- fix errror type ([dc9e5b5](https://github.com/casbin/node-casbin/commit/dc9e5b5db766d64918a7670f6b3b72f70e84ca28))
+- remove unused import ([2f8801c](https://github.com/casbin/node-casbin/commit/2f8801c47e716f69c36b49a73a45c67d9c751b92))
 
 ### Features
 
-* add initRmMap ([87f8011](https://github.com/casbin/node-casbin/commit/87f801109e9cf4b0b423e3b76e1a8b9987b1b600))
-* add named addMatchingFunc ([65d3a26](https://github.com/casbin/node-casbin/commit/65d3a2655c638085938de9df4efa5a7d16bfa788))
-* add sync mode ([70e4e12](https://github.com/casbin/node-casbin/commit/70e4e12610dc42b6f25f8df268611ee1a0cbc7bd))
-* add unittest ([3cd5b73](https://github.com/casbin/node-casbin/commit/3cd5b7307b54342849029c957ceec81fc84f0fdd))
+- add initRmMap ([87f8011](https://github.com/casbin/node-casbin/commit/87f801109e9cf4b0b423e3b76e1a8b9987b1b600))
+- add named addMatchingFunc ([65d3a26](https://github.com/casbin/node-casbin/commit/65d3a2655c638085938de9df4efa5a7d16bfa788))
+- add sync mode ([70e4e12](https://github.com/casbin/node-casbin/commit/70e4e12610dc42b6f25f8df268611ee1a0cbc7bd))
+- add unittest ([3cd5b73](https://github.com/casbin/node-casbin/commit/3cd5b7307b54342849029c957ceec81fc84f0fdd))
 
 ## [5.4.2](https://github.com/casbin/node-casbin/compare/v5.4.1...v5.4.2) (2021-03-04)
 
-
 ### Bug Fixes
 
-* improve load policy line ([9f12511](https://github.com/casbin/node-casbin/commit/9f12511e5fbfb16646b38ad30e345beee5179c9d))
+- improve load policy line ([9f12511](https://github.com/casbin/node-casbin/commit/9f12511e5fbfb16646b38ad30e345beee5179c9d))
 
 ## [5.4.1](https://github.com/casbin/node-casbin/compare/v5.4.0...v5.4.1) (2021-02-19)
 
-
 ### Bug Fixes
 
-* fix unexpected parser action ([3074fa9](https://github.com/casbin/node-casbin/commit/3074fa9050ca073eb4c0f4197c63f13e9e7f9ebf))
+- fix unexpected parser action ([3074fa9](https://github.com/casbin/node-casbin/commit/3074fa9050ca073eb4c0f4197c63f13e9e7f9ebf))
 
 # [5.4.0](https://github.com/casbin/node-casbin/compare/v5.3.1...v5.4.0) (2021-02-06)
 
-
 ### Features
 
-* add updatePolicy() ([#234](https://github.com/casbin/node-casbin/issues/234)) ([a3218f1](https://github.com/casbin/node-casbin/commit/a3218f1a5d134838c0fb90c8ad1c8751e26c6332)), closes [#235](https://github.com/casbin/node-casbin/issues/235)
+- add updatePolicy() ([#234](https://github.com/casbin/node-casbin/issues/234)) ([a3218f1](https://github.com/casbin/node-casbin/commit/a3218f1a5d134838c0fb90c8ad1c8751e26c6332)), closes [#235](https://github.com/casbin/node-casbin/issues/235)
 
 ## [5.3.1](https://github.com/casbin/node-casbin/compare/v5.3.0...v5.3.1) (2021-01-29)
 
-
 ### Bug Fixes
 
-* downgrade expression-eval back to v2.0.0 to avoid semantic-release failure, revert: https://github.com/casbin/node-casbin/pull/222 ([8c0b1fd](https://github.com/casbin/node-casbin/commit/8c0b1fd6b59c39350e90c768c54577396f89fefe))
+- downgrade expression-eval back to v2.0.0 to avoid semantic-release failure, revert: https://github.com/casbin/node-casbin/pull/222 ([8c0b1fd](https://github.com/casbin/node-casbin/commit/8c0b1fd6b59c39350e90c768c54577396f89fefe))
 
 # [5.3.0](https://github.com/casbin/node-casbin/compare/v5.2.2...v5.3.0) (2021-01-28)
 
-
 ### Bug Fixes
 
-* downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
-* update expression-eval ([95de296](https://github.com/casbin/node-casbin/commit/95de29650251af781d8638011dcc5cabeef2784c))
-
+- downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
+- update expression-eval ([95de296](https://github.com/casbin/node-casbin/commit/95de29650251af781d8638011dcc5cabeef2784c))
 
 ### Features
 
-* enforceSync ([ff41f0a](https://github.com/casbin/node-casbin/commit/ff41f0a7c6eebbfafe985a929eba9e70f2c4b162))
+- enforceSync ([ff41f0a](https://github.com/casbin/node-casbin/commit/ff41f0a7c6eebbfafe985a929eba9e70f2c4b162))
 
 ## [5.2.3](https://github.com/casbin/node-casbin/compare/v5.2.2...v5.2.3) (2021-01-08)
 
-
 ### Bug Fixes
 
-* downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
-* update expression-eval ([95de296](https://github.com/casbin/node-casbin/commit/95de29650251af781d8638011dcc5cabeef2784c))
+- downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
+- update expression-eval ([95de296](https://github.com/casbin/node-casbin/commit/95de29650251af781d8638011dcc5cabeef2784c))
 
 ## [5.2.3](https://github.com/casbin/node-casbin/compare/v5.2.2...v5.2.3) (2021-01-08)
 
-
 ### Bug Fixes
 
-* downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
+- downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
 
 ## [5.2.3](https://github.com/casbin/node-casbin/compare/v5.2.2...v5.2.3) (2020-12-19)
 
-
 ### Bug Fixes
 
-* downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
+- downgrade target from ESNext to ES2017 for building esm ([7dfcf93](https://github.com/casbin/node-casbin/commit/7dfcf93a2eb7a9c9116f55341537a4c81840e3d4))
 
 ## [5.2.2](https://github.com/casbin/node-casbin/compare/v5.2.1...v5.2.2) (2020-11-29)
 
-
 ### Bug Fixes
 
-* **builtinoperators:** fix function keyMatch3 ([1245aa0](https://github.com/casbin/node-casbin/commit/1245aa072b47135b49cb70abeed0796908a8feb7)), closes [#214](https://github.com/casbin/node-casbin/issues/214)
+- **builtinoperators:** fix function keyMatch3 ([1245aa0](https://github.com/casbin/node-casbin/commit/1245aa072b47135b49cb70abeed0796908a8feb7)), closes [#214](https://github.com/casbin/node-casbin/issues/214)
 
 ## [5.2.1](https://github.com/casbin/node-casbin/compare/v5.2.0...v5.2.1) (2020-11-15)
 
-
 ### Bug Fixes
 
-* **rbac:** fix defaultRoleManager hasRole method ([#211](https://github.com/casbin/node-casbin/issues/211)) ([4f3ba65](https://github.com/casbin/node-casbin/commit/4f3ba65429f91250485b8a0b070f16cb750955cd))
+- **rbac:** fix defaultRoleManager hasRole method ([#211](https://github.com/casbin/node-casbin/issues/211)) ([4f3ba65](https://github.com/casbin/node-casbin/commit/4f3ba65429f91250485b8a0b070f16cb750955cd))
 
 # [5.2.0](https://github.com/casbin/node-casbin/compare/v5.1.6...v5.2.0) (2020-10-26)
 
-
 ### Features
 
-* changing TypeScript target from ES6 to ES2017 ([6f4f50f](https://github.com/casbin/node-casbin/commit/6f4f50f205dfb7187e34a0439f2b4f0bf6ed5a47))
+- changing TypeScript target from ES6 to ES2017 ([6f4f50f](https://github.com/casbin/node-casbin/commit/6f4f50f205dfb7187e34a0439f2b4f0bf6ed5a47))
 
 ## [5.1.6](https://github.com/casbin/node-casbin/compare/v5.1.5...v5.1.6) (2020-10-07)
 
-
 ### Bug Fixes
 
-* support pattern function in 3rd args of g ([#199](https://github.com/casbin/node-casbin/issues/199)) ([27005f8](https://github.com/casbin/node-casbin/commit/27005f85829f11193cb4ecfd14be5ed6e64ad63c))
+- support pattern function in 3rd args of g ([#199](https://github.com/casbin/node-casbin/issues/199)) ([27005f8](https://github.com/casbin/node-casbin/commit/27005f85829f11193cb4ecfd14be5ed6e64ad63c))
 
 ## [5.1.5](https://github.com/casbin/node-casbin/compare/v5.1.4...v5.1.5) (2020-09-14)
 
-
 ### Bug Fixes
 
-* ignore print model ([f426131](https://github.com/casbin/node-casbin/commit/f426131e752143251db6c11a7352d91d959cb503))
+- ignore print model ([f426131](https://github.com/casbin/node-casbin/commit/f426131e752143251db6c11a7352d91d959cb503))
 
 ## [5.1.4](https://github.com/casbin/node-casbin/compare/v5.1.3...v5.1.4) (2020-09-10)
 
-
 ### Bug Fixes
 
-* add cache to generateGFunction ([e90bed2](https://github.com/casbin/node-casbin/commit/e90bed24f6e6e3cd5b33a433c4fe7a27e494cabe))
+- add cache to generateGFunction ([e90bed2](https://github.com/casbin/node-casbin/commit/e90bed24f6e6e3cd5b33a433c4fe7a27e494cabe))
 
 ## [5.1.3](https://github.com/casbin/node-casbin/compare/v5.1.2...v5.1.3) (2020-08-30)
 
-
 ### Bug Fixes
 
-* update casbinJsGetPermissionForUser for v0.1.0 Casbin.js ([#186](https://github.com/casbin/node-casbin/issues/186)) ([6c277e8](https://github.com/casbin/node-casbin/commit/6c277e8858cf07d9a098817b72710a30c4117fa9))
+- update casbinJsGetPermissionForUser for v0.1.0 Casbin.js ([#186](https://github.com/casbin/node-casbin/issues/186)) ([6c277e8](https://github.com/casbin/node-casbin/commit/6c277e8858cf07d9a098817b72710a30c4117fa9))
 
 ## [5.1.2](https://github.com/casbin/node-casbin/compare/v5.1.1...v5.1.2) (2020-08-12)
 
-
 ### Bug Fixes
 
-* add checks fieldValues to remove filtered policy ([6e144fb](https://github.com/casbin/node-casbin/commit/6e144fb9a895332245006ef3a28c47d022654895))
+- add checks fieldValues to remove filtered policy ([6e144fb](https://github.com/casbin/node-casbin/commit/6e144fb9a895332245006ef3a28c47d022654895))
 
 ## [5.1.1](https://github.com/casbin/node-casbin/compare/v5.1.0...v5.1.1) (2020-08-12)
 
-
 ### Bug Fixes
 
-* add check if the adapter implements BatchAdapter ([a415838](https://github.com/casbin/node-casbin/commit/a415838a514706af8a9399c899959bdb069619d4))
+- add check if the adapter implements BatchAdapter ([a415838](https://github.com/casbin/node-casbin/commit/a415838a514706af8a9399c899959bdb069619d4))
 
 # [5.1.0](https://github.com/casbin/node-casbin/compare/v5.0.7...v5.1.0) (2020-08-11)
 
-
 ### Features
 
-* add casbinJsGetPermissionForUser ([30ae126](https://github.com/casbin/node-casbin/commit/30ae126b962df6fc580ce943f20e8bf0ce5349c3))
+- add casbinJsGetPermissionForUser ([30ae126](https://github.com/casbin/node-casbin/commit/30ae126b962df6fc580ce943f20e8bf0ce5349c3))
 
 ## [5.0.6](https://github.com/casbin/node-casbin/compare/v5.0.5...v5.0.6) (2020-07-16)
 
-
 ### Bug Fixes
 
-* add casbin-cpp to supported languages. ([b856734](https://github.com/casbin/node-casbin/commit/b85673432f8a150490fd5134797508ccd368b81f))
+- add casbin-cpp to supported languages. ([b856734](https://github.com/casbin/node-casbin/commit/b85673432f8a150490fd5134797508ccd368b81f))
 
 ## [5.0.5](https://github.com/casbin/node-casbin/compare/v5.0.4...v5.0.5) (2020-07-08)
 
-
 ### Bug Fixes
 
-* improve tokens separator ([687e96f](https://github.com/casbin/node-casbin/commit/687e96f1495de12bc7acd37bf56af57af490b0b6))
+- improve tokens separator ([687e96f](https://github.com/casbin/node-casbin/commit/687e96f1495de12bc7acd37bf56af57af490b0b6))
 
 ## [5.0.4](https://github.com/casbin/node-casbin/compare/v5.0.3...v5.0.4) (2020-06-08)
 
